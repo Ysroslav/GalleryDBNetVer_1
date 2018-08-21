@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:mysql://localhost:3306/gallery</property>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+    <mapping class="ru.bodrov.gallery.entity.TblPictureEntity"/>
+      <mapping class="ru.bodrov.gallery.entity.DictTypepictureEnt"/>
+      <mapping class="ru.bodrov.gallery.entity.TblClientEnt"/>
+      <mapping class="ru.bodrov.gallery.entity.TblSaleEnt"/>
+      <mapping class="ru.bodrov.gallery.entity.TblLogEntity"/>
+    <!-- <property name="connection.username"/> -->
+    <!-- <property name="connection.password"/> -->
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>

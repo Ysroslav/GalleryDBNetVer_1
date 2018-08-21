@@ -1,0 +1,35 @@
+<pretty-config xmlns="http://ocpsoft.org/schema/rewrite-config-prettyfaces"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://ocpsoft.org/schema/rewrite-config-prettyfaces
+                      http://ocpsoft.org/xml/ns/prettyfaces/rewrite-config-prettyfaces.xsd">
+
+    <url-mapping>
+        <pattern value="/client-list" />
+        <view-id value="/client-list.xhtml"/>
+    </url-mapping>
+
+    <url-mapping>
+        <pattern value="/client-edit" />
+        <view-id value="/client-edit.xhtml"/>
+    </url-mapping>
+
+    <url-mapping>
+        <pattern value="/picture-list" />
+        <view-id value="/picture-list.xhtml"/>
+    </url-mapping>
+
+    <url-mapping>
+        <pattern value="/picture-edit" />
+        <view-id value="/picture-edit.xhtml"/>
+    </url-mapping>
+
+    <url-mapping>
+        <pattern value="/sale-list" />
+        <view-id value="/sale-list.xhtml"/>
+    </url-mapping>
+
+    <url-mapping>
+        <pattern value="/sale-edit" />
+        <view-id value="/sale-edit.xhtml"/>
+    </url-mapping>
+</pretty-config>
